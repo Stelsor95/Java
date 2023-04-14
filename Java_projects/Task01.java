@@ -35,8 +35,7 @@ class Task01 {
             if (n < 1)
                 System.out.println("Вы должны ввести только положительное число");
             else {
-                System.out.printf("Сумма чисел от 1 до n %d: %s", n, getTriangleNumber(n));
-                System.out.println();
+                System.out.printf("Сумма чисел от 1 до %d: %s \n", n, getTriangleNumber(n));
                 System.out.printf("Произведение чисел от 1 до %d: %s", n, getFactorial(n));
             }
         }
