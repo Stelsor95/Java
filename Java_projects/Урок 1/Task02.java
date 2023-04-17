@@ -1,4 +1,3 @@
-package Java_projects;
 
 /**
  * Task02
@@ -11,10 +10,10 @@ import java.util.Scanner;
 public class Task02 {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scn = new Scanner(System.in);
         System.out.print("Введите положительное число: ");
-        int input = scanner.nextInt();
-        scanner.close();
+        int input = scn.nextInt();
+        scn.close();
         List<Integer> primes = new ArrayList<>();
 
         for (int i = 2; i <= input; i++) {

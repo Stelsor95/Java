@@ -1,4 +1,3 @@
-package Java_projects;
 
 /**
  * Task03
@@ -9,14 +8,14 @@ import java.util.Scanner;
 
 public class Task03 {
     static int scanNumber() {
-        Scanner scan = new Scanner(System.in);
-        int number = scan.nextInt();
+        Scanner scn = new Scanner(System.in);
+        int number = scn.nextInt();
         return number;
     }
 
     static String scanOperations() {
-        Scanner scan = new Scanner(System.in);
-        String operations = scan.nextLine();
+        Scanner scn = new Scanner(System.in);
+        String operations = scn.nextLine();
         return operations;
 
     }

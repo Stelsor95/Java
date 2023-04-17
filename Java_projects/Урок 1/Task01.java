@@ -3,23 +3,21 @@
 // Треугольное число 1 + 2 + 3 + 4 + 5 = 15
 // n! 1 * 2 * 3 * 4 * 5 = 120
 
-package Java_projects;
-
 import java.util.Scanner;
 
 class Task01 {
     static int getTriangleNumber(int n) {
         int sum = 0;
-        for (int index = 0; index < n; index++) {
-            sum += index + 1;
+        for (int i = 0; i < n; i++) {
+            sum += i + 1;
         }
         return sum;
     }
 
     static int getFactorial(int n) {
         int result = 1;
-        for (int index = 0; index < n; index++) {
-            result *= index + 1;
+        for (int i = 0; i < n; i++) {
+            result *= i + 1;
         }
         return result;
     }
