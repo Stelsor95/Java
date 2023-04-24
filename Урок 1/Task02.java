@@ -3,6 +3,7 @@
  * Task02
  * Вывести все простые числа от 1 до 1000
  */
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
