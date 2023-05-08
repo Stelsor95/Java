@@ -32,10 +32,10 @@ public class Task02 {
         }
         while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
-            String[] fields = line.split(",");
+            String[] fields = line.split(";");
             String surname = fields[0].replaceAll("", "").substring(7);
-            String grade = fields[1].replaceAll("", "").substring(6);
-            String subject = fields[2].replaceAll("", "").substring(7);
+            String grade = fields[1].replaceAll("", "").substring(7);
+            String subject = fields[2].replaceAll("", "").substring(8);
 
             StringBuilder sb = new StringBuilder();
 
